@@ -12,6 +12,8 @@ public class Test {
         mechanics.add(poul);
         Foreman lisa = new Foreman("Lisa", "BobStreet", 2015, 45, 20, 2022);
         mechanics.add(lisa);
+        Survoyer bob = new Survoyer("Bob", "Blubvej", 2010, 30, 10);
+        mechanics.add(bob);
 
         System.out.println(totalWeeklySalary(mechanics));
 
