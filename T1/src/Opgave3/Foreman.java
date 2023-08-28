@@ -1,20 +1,21 @@
 package Opgave3;
 
-public class Foreman extends Mechanic{
+public class Foreman extends Emplyee{
     public double tillæg;
     public int årForUdnævnelse;
+    private int svendePrøve;
 
     public Foreman(String name, String adress, int svendePrøve, double timeløn, double tillæg, int årForUdnævnelse){
-        super(name, adress, svendePrøve, timeløn);
+        super(name, adress, timeløn);
         this.tillæg = tillæg;
         this.årForUdnævnelse = årForUdnævnelse;
+        this.svendePrøve = svendePrøve;
     }
     @Override
-    public double weeklySalary(double timeLøn){
+    public double weeklySalary(){
         double salaryPerWeek = 0;
-        salaryPerWeek = (timeLøn*37) + tillæg;
+        salaryPerWeek = timeLøn*37 + tillæg;
 
-        System.out.println(salaryPerWeek);
         return salaryPerWeek;
     }
 

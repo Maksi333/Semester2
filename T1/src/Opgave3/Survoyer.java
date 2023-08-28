@@ -10,11 +10,10 @@ public class Survoyer extends Mechanic {
     }
 
     @Override
-    public double weeklySalary(double timeLøn){
+    public double weeklySalary(){
         double salaryPerWeek = 0;
-        salaryPerWeek = (timeLøn*37) + antalSyn*29;
+        salaryPerWeek = super.weeklySalary() + antalSyn*29;
 
-        System.out.println(salaryPerWeek);
         return salaryPerWeek;
     }
 }

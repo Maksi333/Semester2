@@ -1,23 +1,18 @@
 package Opgave3;
 
-public class Mechanic extends Person {
+public class Mechanic extends Emplyee {
     private int svendePrøveÅr;
-    private double timeLøn;
 
     public Mechanic(String name, String adress, int svendePrøveÅr, double timeLøn){
-        super(name, adress);
-        this.timeLøn = timeLøn;
+        super(name, adress, timeLøn);
         this.svendePrøveÅr = svendePrøveÅr;
     }
-    public double weeklySalary(double timeLøn){
+
+    @Override
+    public double weeklySalary(){
         double salaryPerWeek = 0;
         salaryPerWeek = timeLøn*37;
 
-        System.out.println(salaryPerWeek);
         return salaryPerWeek;
-    }
-
-    public double getTimeLøn() {
-        return timeLøn;
     }
 }
