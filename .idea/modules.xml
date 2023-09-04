@@ -5,6 +5,8 @@
       <module fileurl="file://$PROJECT_DIR$/Semester2.iml" filepath="$PROJECT_DIR$/Semester2.iml" />
       <module fileurl="file://$PROJECT_DIR$/T1/T1.iml" filepath="$PROJECT_DIR$/T1/T1.iml" />
       <module fileurl="file://$PROJECT_DIR$/T2/T2.iml" filepath="$PROJECT_DIR$/T2/T2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/T3/T3.iml" filepath="$PROJECT_DIR$/T3/T3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/T5 recursive/T5 recursive.iml" filepath="$PROJECT_DIR$/T5 recursive/T5 recursive.iml" />
     </modules>
   </component>
 </project>
