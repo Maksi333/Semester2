@@ -6,7 +6,9 @@
       <module fileurl="file://$PROJECT_DIR$/T1/T1.iml" filepath="$PROJECT_DIR$/T1/T1.iml" />
       <module fileurl="file://$PROJECT_DIR$/T2/T2.iml" filepath="$PROJECT_DIR$/T2/T2.iml" />
       <module fileurl="file://$PROJECT_DIR$/T3/T3.iml" filepath="$PROJECT_DIR$/T3/T3.iml" />
-      <module fileurl="file://$PROJECT_DIR$/T5 recursive/T5 recursive.iml" filepath="$PROJECT_DIR$/T5 recursive/T5 recursive.iml" />
+      <module fileurl="file://$PROJECT_DIR$/T6 Recursion/T6 Recursion.iml" filepath="$PROJECT_DIR$/T6 Recursion/T6 Recursion.iml" />
+      <module fileurl="file://$PROJECT_DIR$/T7 opdel og flet/T7 opdel og flet.iml" filepath="$PROJECT_DIR$/T7 opdel og flet/T7 opdel og flet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/T8 Generics/T8 Generics.iml" filepath="$PROJECT_DIR$/T8 Generics/T8 Generics.iml" />
     </modules>
   </component>
 </project>
