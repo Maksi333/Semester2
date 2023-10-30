@@ -1,15 +1,18 @@
 package BaggyBag;
 
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 
 public class ObserveableBag implements Bag{
     public int key = 0;
+    private Bag subject;
 
-    private Map<Integer, String> stuff = new HashMap<>();
+    private ArrayList<Observer> observers = new ArrayList<Observer>();
+    private Map<String, Integer> stuff = new HashMap<>();
     @Override
     public void add(String s) {
-        stuff.put(key, s);
+        stuff.put(s, key);
         key++;
     }
 
@@ -20,5 +23,12 @@ public class ObserveableBag implements Bag{
 
     @Override
     public int getCount(String s) {
-return 0;    }
+    return 0;
+    }
+
+    public void notifyOberservers(String s){
+        for(Observer o : observers){
+
+        }
+    }
 }
