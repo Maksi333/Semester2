@@ -19,9 +19,6 @@ public class Test {
         emplyees.add(ninjaEmil);
 
 
-
-
-
         System.out.println(totalWeeklySalary(emplyees));
 
     }

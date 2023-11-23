@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/ArchitectureExample/ArchitectureExample.iml" filepath="$PROJECT_DIR$/ArchitectureExample/ArchitectureExample.iml" />
       <module fileurl="file://$PROJECT_DIR$/DemoPersist/DemoPersist.iml" filepath="$PROJECT_DIR$/DemoPersist/DemoPersist.iml" />
       <module fileurl="file://$PROJECT_DIR$/T13 Observer Pattern/Observer Pattern.iml" filepath="$PROJECT_DIR$/T13 Observer Pattern/Observer Pattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/Semester2.iml" filepath="$PROJECT_DIR$/Semester2.iml" />
@@ -14,6 +13,8 @@
       <module fileurl="file://$PROJECT_DIR$/T16 queue/T16 queue.iml" filepath="$PROJECT_DIR$/T16 queue/T16 queue.iml" />
       <module fileurl="file://$PROJECT_DIR$/T17/T17 fucking nodes.iml" filepath="$PROJECT_DIR$/T17/T17 fucking nodes.iml" />
       <module fileurl="file://$PROJECT_DIR$/T18 serializeable/T18 serializeable.iml" filepath="$PROJECT_DIR$/T18 serializeable/T18 serializeable.iml" />
+      <module fileurl="file://$PROJECT_DIR$/T19 Myscene/T19 Myscene.iml" filepath="$PROJECT_DIR$/T19 Myscene/T19 Myscene.iml" />
+      <module fileurl="file://$PROJECT_DIR$/T19 scenebuilder/T19 scenebuilder.iml" filepath="$PROJECT_DIR$/T19 scenebuilder/T19 scenebuilder.iml" />
       <module fileurl="file://$PROJECT_DIR$/T2/T2.iml" filepath="$PROJECT_DIR$/T2/T2.iml" />
       <module fileurl="file://$PROJECT_DIR$/T3/T3.iml" filepath="$PROJECT_DIR$/T3/T3.iml" />
       <module fileurl="file://$PROJECT_DIR$/T6 Recursion/T6 Recursion.iml" filepath="$PROJECT_DIR$/T6 Recursion/T6 Recursion.iml" />
