@@ -1,3 +1,5 @@
+package opgave1;
+
 public class Beer implements Measurable{
     private String name;
     private double alcPercentage;
@@ -14,7 +16,7 @@ public class Beer implements Measurable{
 
     @Override
     public String toString() {
-        return "Beer{" +
+        return "opgave1.Beer{" +
                 "name='" + name + '\'' +
                 ", alcPercentage=" + alcPercentage +
                 '}';

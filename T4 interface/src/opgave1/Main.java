@@ -1,3 +1,5 @@
+package opgave1;
+
 public class Main {
 
 
@@ -26,6 +28,8 @@ public class Main {
         System.out.println(max(chiliListe));
         System.out.println(max(ølListe));
         blackFridaymeal(chiliListe, ølListe);
+
+
 
     }
 

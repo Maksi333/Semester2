@@ -1,4 +1,4 @@
-import java.util.Random;
+package opgave1;
 
 public class Chili implements Measurable{
 
@@ -33,7 +33,7 @@ public class Chili implements Measurable{
 
     @Override
     public String toString() {
-        return "Chili{" +
+        return "opgave1.Chili{" +
                 "name='" + name + '\'' +
                 ", scoville=" + scoville +
                 '}';
