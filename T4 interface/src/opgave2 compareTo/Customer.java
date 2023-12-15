@@ -18,15 +18,13 @@ public class Customer implements Comparable<Customer>{
         int lastNameCompare = this.lastName.compareTo(o.lastName);
         int firstNameCompare = this.firstName.compareTo(o.lastName);
 
-        if(lastNameCompare > 0){
-            System.out.println(this);
+        if(lastNameCompare != 0){
             return lastNameCompare;
-
-        } else if(lastNameCompare == 0){
-            System.out.println(o);
+        } else if(lastNameCompare != 0){
             return firstNameCompare;
-        }else
-        return 0;
+        }else{
+            return Integer.compare(this.age, o.age);
+        }
     }
 
     @Override
