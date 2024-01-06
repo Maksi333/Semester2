@@ -1,4 +1,6 @@
+import java.io.File;
 import java.util.ArrayList;
+import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
@@ -8,6 +10,10 @@ public class Main {
         System.out.println(prod(4, 4));
         System.out.println(prodRus(4,4));
         System.out.println(reverse("reverse"));
+
+        scanDir("C:\\Users\\simon\\Documents\\GitHub\\Semester2\\T5 Recursion\\src\\Files");
+
+        System.out.println(euclidsAlgo(210,45));
 
     }
 
@@ -62,4 +68,45 @@ public class Main {
             return reverse(restOfString) + firstChar;
         }
     }
+
+    //opgave 5
+
+    public static void scanDir(String path){
+        File file = new File(path);
+        File[] files = file.listFiles();
+
+        if(file == null){
+            System.out.println("No file found");
+        }else{
+            for (File f : files){
+                if(f.isDirectory()){
+                    System.out.println(f.getAbsolutePath());
+                    scanDir(f.getAbsolutePath());
+                }else{
+                    System.out.println(f.getAbsolutePath());
+                }
+            }
+        }
+    }
+
+    //opgave6 -- Husk returns når du kalder den rekursive metode
+    public static int euclidsAlgo(int a, int b){
+        int r = 0;
+
+        if(a%b != 0){
+            if(a < b){
+                r = b%a;
+                return euclidsAlgo(a,r);
+            }else{
+                r = a%b;
+                return euclidsAlgo(r,b);
+            }
+        }else if (a%b == 0){
+            return b;
+        }
+        return b;
+    }
+
+    //opgave 7
+
 }
