@@ -20,6 +20,5 @@ public class Main {
                 String fruit = iterator.next();
                 System.out.println(fruit);
             }
-        }
     }
 }

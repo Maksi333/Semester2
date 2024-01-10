@@ -6,7 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/T13 Observer Pattern/Observer Pattern.iml" filepath="$PROJECT_DIR$/T13 Observer Pattern/Observer Pattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/ScanFile/ScanFile.iml" filepath="$PROJECT_DIR$/ScanFile/ScanFile.iml" />
       <module fileurl="file://$PROJECT_DIR$/Semester2.iml" filepath="$PROJECT_DIR$/Semester2.iml" />
-      <module fileurl="file://$PROJECT_DIR$/T1/T1.iml" filepath="$PROJECT_DIR$/T1/T1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/T1 Polyphomy/T1.iml" filepath="$PROJECT_DIR$/T1 Polyphomy/T1.iml" />
       <module fileurl="file://$PROJECT_DIR$/T10 Lambda igen/T10 Lambda igen.iml" filepath="$PROJECT_DIR$/T10 Lambda igen/T10 Lambda igen.iml" />
       <module fileurl="file://$PROJECT_DIR$/T10 lambda/T10 lambda.iml" filepath="$PROJECT_DIR$/T10 lambda/T10 lambda.iml" />
       <module fileurl="file://$PROJECT_DIR$/T11 DesignPatterns/T11 DesignPatterns.iml" filepath="$PROJECT_DIR$/T11 DesignPatterns/T11 DesignPatterns.iml" />
@@ -23,11 +23,12 @@
       <module fileurl="file://$PROJECT_DIR$/T18 serializeable/T18 serializeable.iml" filepath="$PROJECT_DIR$/T18 serializeable/T18 serializeable.iml" />
       <module fileurl="file://$PROJECT_DIR$/T19 Myscene/T19 Myscene.iml" filepath="$PROJECT_DIR$/T19 Myscene/T19 Myscene.iml" />
       <module fileurl="file://$PROJECT_DIR$/T19 scenebuilder/T19 scenebuilder.iml" filepath="$PROJECT_DIR$/T19 scenebuilder/T19 scenebuilder.iml" />
-      <module fileurl="file://$PROJECT_DIR$/T2/T2.iml" filepath="$PROJECT_DIR$/T2/T2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/T2 Abstract super method/T2.iml" filepath="$PROJECT_DIR$/T2 Abstract super method/T2.iml" />
       <module fileurl="file://$PROJECT_DIR$/T21 Iterator example/T21 Iterator example.iml" filepath="$PROJECT_DIR$/T21 Iterator example/T21 Iterator example.iml" />
-      <module fileurl="file://$PROJECT_DIR$/T3/T3.iml" filepath="$PROJECT_DIR$/T3/T3.iml" />
-      <module fileurl="file://$PROJECT_DIR$/T4 interface/T4 interface.iml" filepath="$PROJECT_DIR$/T4 interface/T4 interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/T3 Interface/T3.iml" filepath="$PROJECT_DIR$/T3 Interface/T3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/T4 interface (CompareTo)/T4 interface.iml" filepath="$PROJECT_DIR$/T4 interface (CompareTo)/T4 interface.iml" />
       <module fileurl="file://$PROJECT_DIR$/T5 Recursion again/T5 Recursion.iml" filepath="$PROJECT_DIR$/T5 Recursion again/T5 Recursion.iml" />
+      <module fileurl="file://$PROJECT_DIR$/T6 Opdel og flet igen/T6 Opdel og flet igen.iml" filepath="$PROJECT_DIR$/T6 Opdel og flet igen/T6 Opdel og flet igen.iml" />
       <module fileurl="file://$PROJECT_DIR$/T6 Recursion/T6 Recursion.iml" filepath="$PROJECT_DIR$/T6 Recursion/T6 Recursion.iml" />
       <module fileurl="file://$PROJECT_DIR$/T7 opdel og flet/T7 opdel og flet.iml" filepath="$PROJECT_DIR$/T7 opdel og flet/T7 opdel og flet.iml" />
       <module fileurl="file://$PROJECT_DIR$/T8 Generics/T8 Generics.iml" filepath="$PROJECT_DIR$/T8 Generics/T8 Generics.iml" />
