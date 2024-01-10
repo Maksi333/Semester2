@@ -17,7 +17,6 @@ public class opgaver implements Queue23Y{
         if(queue.isEmpty() == true){
             throw new NoSuchElementException();
         }
-
         return queue.removeFirst();
     }
     /**

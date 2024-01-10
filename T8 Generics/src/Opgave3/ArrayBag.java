@@ -37,42 +37,81 @@ public class ArrayBag<E> implements Bag<E> {
 
     @Override
     public boolean add(E newEntry) {
-        // TODO
-        return false;
+        if(isFull()){
+            return false;
+        }else{
+            items[size] = newEntry;
+            size++;
+            return true;
+        }
     }
 
     @Override
     public E remove() {
-        // TODO
-        return null;
+        E removedItem;
+        if (isEmpty()) {
+            return null;
+        } else {
+            removedItem = items[size - 1];
+            items[size - 1] = null;
+            size--;
+        }
+        return removedItem;
     }
 
     @Override
     public boolean remove(E anEntry) {
-        // TODO
+        if(isEmpty()){
+            return false;
+        }else{
+            for(int i = 0; i < items.length-1; i++){
+                if(items[i] == anEntry){
+                    items[i] = null;
+                    size--;
+                    return true;
+                }
+            }
+        }
         return false;
     }
 
     @Override
     public void clear() {
-        // TODO
+        for(int i = 0; i < items.length - 1; i++){
+            items[i] = null;
+            size = 0;
+        }
     }
 
     @Override
     public int getFrequencyOf(E anEntry) {
-        // TODO
-        return 0;
+        int counter = 0;
+        for(int i = 0; i < items.length-1; i++){
+            if(items[i] == anEntry){
+                counter++;
+            }
+        }
+        return counter;
     }
 
     @Override
     public boolean contains(E anEntry) {
-        // TODO
+        for(int i = 0; i < items.length-1; i++){
+            if(items[i] == anEntry){
+                return true;
+            }else{
+                return false;
+            }
+        }
         return false;
     }
 
     @Override
     public E[] toArray() {
-        // TODO
-        return null;
+        E[] resultArray = (E[]) new Object[items.length];
+        for(int i = 0; i < items.length-1; i++){
+            resultArray[i] = items[i];
+        }
+        return resultArray;
     }
 }
