@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/T13 Observer Pattern/Observer Pattern.iml" filepath="$PROJECT_DIR$/T13 Observer Pattern/Observer Pattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/ScanFile/ScanFile.iml" filepath="$PROJECT_DIR$/ScanFile/ScanFile.iml" />
       <module fileurl="file://$PROJECT_DIR$/Semester2.iml" filepath="$PROJECT_DIR$/Semester2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Sorting/Sorting.iml" filepath="$PROJECT_DIR$/Sorting/Sorting.iml" />
       <module fileurl="file://$PROJECT_DIR$/T1 Polyphomy/T1.iml" filepath="$PROJECT_DIR$/T1 Polyphomy/T1.iml" />
       <module fileurl="file://$PROJECT_DIR$/T10 Lambda igen/T10 Lambda igen.iml" filepath="$PROJECT_DIR$/T10 Lambda igen/T10 Lambda igen.iml" />
       <module fileurl="file://$PROJECT_DIR$/T10 lambda/T10 lambda.iml" filepath="$PROJECT_DIR$/T10 lambda/T10 lambda.iml" />
@@ -35,6 +36,7 @@
       <module fileurl="file://$PROJECT_DIR$/T9 Sets/T9 Sets.iml" filepath="$PROJECT_DIR$/T9 Sets/T9 Sets.iml" />
       <module fileurl="file://$PROJECT_DIR$/Tests/Tests.iml" filepath="$PROJECT_DIR$/Tests/Tests.iml" />
       <module fileurl="file://$PROJECT_DIR$/T20 proeveEksamen/proeveEksamen.iml" filepath="$PROJECT_DIR$/T20 proeveEksamen/proeveEksamen.iml" />
+      <module fileurl="file://$PROJECT_DIR$/threads/threads.iml" filepath="$PROJECT_DIR$/threads/threads.iml" />
     </modules>
   </component>
 </project>
