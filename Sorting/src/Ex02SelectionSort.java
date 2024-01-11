@@ -14,7 +14,10 @@ public class Ex02SelectionSort {
         return c;
     }
 
+
     public static String[] selectionSort(String[] s){
+        // arr has a sorted part followed by an unsorted part
+        // i is the index of the first number in the unsorted part
         for (int i = 0; i < s.length - 1;i++ ){
             int min = 99;
             int idx = 0;
