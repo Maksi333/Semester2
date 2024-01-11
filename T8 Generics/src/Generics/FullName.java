@@ -1,6 +1,8 @@
 package Generics;
 
 
+import java.sql.SQLOutput;
+
 public class FullName implements Comparable<FullName>{
 
     private String firstName;
@@ -31,7 +33,19 @@ public class FullName implements Comparable<FullName>{
     @Override
     public int compareTo(FullName n) {
         int compared = this.firstName.compareTo(n.getFirstName());
-        if(compared == 0) compared = this.getFirstName().compareTo(n.getFirstName());
+        if(compared > 0){
+            System.out.println(this.firstName);
+        }if(compared < 0){
+            System.out.println(n.firstName);
+        }
+        if(compared == 0) {
+            compared = this.getLastName().compareTo(n.getLastName());
+            if(compared > 0){
+                System.out.println(this.lastName);
+            }else{
+                System.out.println(n.lastName);
+            }
+        }
         return compared;
     }
 
